@@ -1,0 +1,269 @@
+body {
+  font-family: verdana, sans-serif;
+}
+header {
+  width: 90%;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px, 15px;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+header img {
+  height: 50px;
+  width: 150px;
+  margin-left: 100px;
+  
+}
+header nav {
+  width: 50%;
+  display: flex;
+margin-right: 400px;
+  justify-content: space-evenly;
+}
+header .shop {
+  display: flex;
+  width:20%;
+}
+
+
+/*//////////////////////////////////////////// 1ST SECTION ////////////////////////////////*/
+.starship {
+  background: url(https://techcrunch.com/wp-content/uploads/2020/12/SN8_20201110.jpg?w=430&h=230&crop=1);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.upcoming {
+  margin-left: 100px;
+  margin-top: 200px;
+  font-size: 20px;
+}
+.flight-test {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.watch-starship {
+  display: flex;
+  margin-left: 100px;
+  border-style: solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+/*//////////////////////////////////////////// 2ND SECTION ////////////////////////////////*/
+.crs-21 {
+  width: 100vw;
+  height: 95vh;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/CRS-21_VABroof.jpg/1200px-CRS-21_VABroof.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.recent-launch {
+  margin-left: 100px;
+  margin-top: 200px;
+  font-size: 20px;
+}
+.crs-mission {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.watch-crs {
+  display: flex;
+  margin-left: 100px;
+  border-style: solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+/*//////////////////////////////////////////// 3RD SECTION ////////////////////////////////*/
+
+.crew-mission {
+  width: 100vw;
+  height: 95vh;
+  background: url(https://i.insider.com/5fac51be144744001858141c?width=700);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.crew1 {
+  margin-left: 100px;
+  margin-top: 200px;
+  font-size: 40px;
+}
+.watch-crew {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.learn-more {
+  display: flex;
+  margin-left: 100px;
+  border-style: solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+/*//////////////////////////////////////////// 4TH SECTION ////////////////////////////////*/
+
+.dragon {
+  width: 100vw;
+  height: 95vh;
+  background: url(https://iss-sim.spacex.com/img/instructions/step5.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dragon-sim {
+  margin-left: 100px;
+  margin-top: 200px;
+  font-size: 40px;
+}
+.dragon-text {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.try-now {
+  display: flex;
+  margin-left: 100px;
+  border-style: solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+/*//////////////////////////////////////////// 5TH SECTION ////////////////////////////////*/
+
+.starship-2 {
+  width: 100vw;
+  height: 95vh;
+  background: url(https://www.extremetech.com/wp-content/uploads/2020/03/starship-prototype.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.starship-large {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 40px;
+}
+.vehicle {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.learn-more-2 {
+  display: flex;
+  margin-left: 100px;
+  border-style: solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+/*//////////////////////////////////////////// 6TH SECTION ////////////////////////////////*/
+
+.lunar {
+  width: 100vw;
+  height: 95vh;
+  background: url(https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/EaQ290gUwAIzrGK_1600x.jpg?v=1598312368);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  align-items: flex-end;
+}
+.date {
+  margin-top: 200px;
+  font-size: 20px;
+  margin-right: 625px;
+}
+.nasa {
+  margin-top: 10px;
+  margin-right: 340px;
+  font-size: 40px;
+}
+.nasa-text {
+  margin-right: 200px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.learn-more-3 {
+  display: flex;
+  margin-right: 515px;
+  border-style: solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+/*//////////////////////////////////////////// FOOTER ////////////////////////////////*/
+
+footer {
+  /* width: 100%;
+  height: 15vh;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  position: relative; */
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px, 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  width:60%;
+  
+}
